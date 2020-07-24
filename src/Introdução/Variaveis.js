@@ -1,10 +1,9 @@
-/* palavras reservadas usadas para declarar variaveis */
+/*Tipos dados em Javascript*/
 
-// var
-// let
-// const
+// Primitivos - null, undefined, string, number, boolean, symbol.
+// Derivados/Objetos - Objetos, Funções, Arrays, Expressões regulares.
 
-/*  Tipos de dados */
+/*  Tipos de variaveis */
 // Number
 // String
 // Boolean
@@ -12,6 +11,14 @@
 // Undefined
 // Null
 // Function
+
+/* palavras reservadas usadas para declarar variaveis */
+
+// var
+// let
+// const
+
+
 
 /* Exemplos */
 
