@@ -43,4 +43,25 @@ Array.prototype.removeFirstPosition = function () { // método para remover do c
 
 numbers.unshift(); // método que remove do começo.
 
+
 // Removendo elementos de posções especificas.
+numbers.splice(5,3); // método splice remove especifocando posição/índice
+// numbers[5]  - removido
+// numbers[6]  - removido
+// numbers[7]  - removido
+
+
+
+// Assim como em arrays e objetos JavaScript,
+// o operador delete também pode ser usado para remover um elemento de um array,
+// por exemplo, delete numbers[0].
+// No entanto, a posição 0 do array terá o valor undefined,
+// ou seja, será o mesmo que executar numbers[0] = undefined,
+// e teríamos de reindexar o array.
+// Por esse motivo, devemos sempre usar os métodos splice,
+// pop ou shift para remover elementos.
+// (Groner, Loiane. Estruturas de dados e algoritmos com JavaScript . Novatec Editora. Edição do Kindle).
+
+numbers.splice(5, 0 , 1, 2, 3);
+// splice tambem adiciona se passar-mos o segundo elemento com 0,
+// e o terceiro argumento informando o valor a ser adicionado no indice informado no primeiro parametro.
