@@ -3,7 +3,7 @@
 // Primitivos - null, undefined, string, number, boolean, symbol.
 // Derivados/Objetos - Objetos, Funções, Arrays, Expressões regulares.
 
-/*  Tipos de variaveis */
+/*  Tipos de variáveis */
 // Number
 // String
 // Boolean
@@ -12,7 +12,7 @@
 // Null
 // Function
 
-/* palavras reservadas usadas para declarar variaveis */
+/* palavras reservadas usadas para declarar variáveis */
 
 // var
 // let
@@ -37,8 +37,8 @@ var undefined; // undefined;
 
 /* Espoco das variáveis */
 
-// Escopo refere-se ao local em que podemos acessar a variavel no algoritmo,
-// variaveis podem ser Globais ou Locais.
+// Escopo refere-se ao local em que podemos acessar a variável no algoritmo,
+// variáveis podem ser Globais ou Locais.
 
 var myVariable = 'global';
 var myOtherVariable = 'global';
@@ -56,10 +56,10 @@ function myOtherFunction() {
 console.log(myVariable); // Global pois foi declarada no escopo global.
 console.log(myFunction()); // Local pois foi declarada dentro da função.
 console.log(myOtherVariable); // Global pois foi declarada no escopo global.
-console.log(myOtherFunction()); // Local pois não usamos var e referenciamos uma variavel existente no escopo global e mudamos o valor dela.
-console.log(myOtherVariable); // Local pois usamos a função para mudar o valor da variavel de modo global.
+console.log(myOtherFunction()); // Local pois não usamos var e referenciamos uma variável existente no escopo global e mudamos o valor dela.
+console.log(myOtherVariable); // Local pois usamos a função para mudar o valor da variável de modo global.
 
-// Evite usar variaveis Globais
+// Evite usar variáveis Globais
 
 
 

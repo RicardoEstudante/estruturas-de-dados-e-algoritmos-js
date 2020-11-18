@@ -1,6 +1,6 @@
 /*  tipos de operadores */
 
-// - Aritmeticos (+,*,/,+, %, **)
+// - Aritméticos (+,*,/,+, %, **)
 // - Atribuição (=, +=, -=, *=, /=, %=)
 // - Comparação (<,>, ==, ===, !=, !==, <=, >=)
 // - Lógicos (||, !, &&)
@@ -9,9 +9,9 @@
 // - Unários (++, --)
 
 var num = 0;    // atribuição
-num = num + 2;  // aritmetico
-num = num - 2;  // aritmetico
-num = num / 2;  // aritmetico
+num = num + 2;  // aritmético
+num = num - 2;  // aritmético
+num = num / 2;  // aritmético
 num++;          // unário
 num--;          // unário
 num += 1;       // atribuição de soma

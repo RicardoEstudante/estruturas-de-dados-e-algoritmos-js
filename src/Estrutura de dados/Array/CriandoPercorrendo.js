@@ -2,10 +2,10 @@
 
 // let diasDaSemana = new Array();
 // diasDaSemana = new Array(7)
-// diasDaSemana = new Array('Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sabado', 'Domingo');
+// diasDaSemana = new Array('Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado', 'Domingo');
 
 let diasDaSemana = [];
-diasDaSemana = ['Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sabado', 'Domingo'];
+diasDaSemana = ['Segunda', 'Terça', 'Quarta', 'Quinta', 'Sexta', 'Sábado', 'Domingo'];
 
 /* Tamanho */
 
@@ -20,7 +20,7 @@ for (let i = 0; i < comprimento; i++) {
   console.log(diasDaSemana[i]);
 }
 
-// Percorrendo reversamente
+// Percorrendo reversamento
 console.log("Reverso \n")
 for (let i = comprimento -1; i >= 0 ; i--) {
   console.log(diasDaSemana[i]);

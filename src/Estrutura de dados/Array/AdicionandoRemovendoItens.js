@@ -6,7 +6,7 @@ numbers.push(11); // método push adiciona no final do array
 numbers.push(12, 13);
 
 // Inserindo no começo do array
-Array.prototype.insertFirstPosition = function (value) { // Inserindo na primeira posiçao
+Array.prototype.insertFirstPosition = function (value) { // Inserindo na primeira posição
   for (let i = this.length; i >= 0; i--) {
     this[i] = this[i - 1];
   }
@@ -23,7 +23,7 @@ numbers.unshift(-4, -3);
 numbers.pop(); // método pop remove do final do array
 
 
-Array.prototype.reIndex = function (myArray) { // método para arrumar o indice do array
+Array.prototype.reIndex = function (myArray) { // método para arrumar o índice do array
 
   const newArray = [];
   for (let i = 0; i < numbers.length; i++) {
@@ -44,8 +44,8 @@ Array.prototype.removeFirstPosition = function () { // método para remover do c
 numbers.unshift(); // método que remove do começo.
 
 
-// Removendo elementos de posções especificas.
-numbers.splice(5,3); // método splice remove especifocando posição/índice
+// Removendo elementos de posições especificas.
+numbers.splice(5,3); // método splice remove especificando posição/índice
 // numbers[5]  - removido
 // numbers[6]  - removido
 // numbers[7]  - removido
@@ -63,5 +63,5 @@ numbers.splice(5,3); // método splice remove especifocando posição/índice
 // (Groner, Loiane. Estruturas de dados e algoritmos com JavaScript . Novatec Editora. Edição do Kindle).
 
 numbers.splice(5, 0 , 1, 2, 3);
-// splice tambem adiciona se passar-mos o segundo elemento com 0,
-// e o terceiro argumento informando o valor a ser adicionado no indice informado no primeiro parametro.
+// splice também adiciona se passar-mos o segundo elemento com 0,
+// e o terceiro argumento informando o valor a ser adicionado no índice informado no primeiro parâmetro.
