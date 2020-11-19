@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/RicardoEstudante/estruturas-de-dados-e-algoritmos-js.git"
   },
-  "keywords": [],
+  "keywords": ["Estrutura-de-dados-e-algoritmos", "Algoritimos", "Javascript"],
   "author": "",
   "license": "ISC",
   "bugs": {

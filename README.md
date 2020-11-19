@@ -1,5 +1,7 @@
 ## Algorítimos
-    - Fibinacci
+    - fibonacci
+    - compare
+    - isEven
 
 ## Array
     - Creating
@@ -8,6 +10,7 @@
     - iteratingMatriz2x2
     - iteratingMatriz3x3
     - length
-    - matriz
     - reIndex
     - removeFirstPosition
+    - sort
+    - others
