@@ -5,6 +5,6 @@ function compare(a, b) {
 }
 
 let numbers = Array.of(5,4,3,2,1);
-
+console.log(numbers)
 console.log(numbers.sort(compare));
 
