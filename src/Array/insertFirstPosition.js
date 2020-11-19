@@ -6,10 +6,11 @@ Array.prototype.insertFirstPosition = function(value) {
 }
 
 let numbers = Array.of(1,2,3,4,5);
+console.log(numbers);
 
 numbers.insertFirstPosition(0);
+console.log(numbers);
 
-numbers.unshift(-2); // método Unshift insere no começo.
-numbers.unshift(-4, -3);
-
+ // método Unshift insere no começo.
+ numbers.unshift(-1, -2);
 console.log(numbers);
